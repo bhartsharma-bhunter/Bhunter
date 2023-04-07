@@ -1,0 +1,9 @@
+sudo apt-get install tor
+pip install bs4
+pip install instagram-py==1.3.3
+sudo pip3 install requests --upgrade
+sudo pip3 install requests[socks]
+sudo pip3 install stem
+sudo pip3 install instagram-py
+wget -O ~/instapy-config.json "https://git.io/v5DGy"
+
