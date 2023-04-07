@@ -1,5 +1,5 @@
-sudo pip3 install requests --upgrade
-sudo pip3 install requests[socks]
-sudo pip3 install stem
-sudo pip3 install instagram-py
+pip3 install requests --upgrade
+pip3 install requests[socks]
+pip3 install stem
+pip3 install instagram-py
 wget -O ~/instapy-config.json
